@@ -15,4 +15,13 @@ class StaticController < ApplicationController
 
   end
 
+  def accueil
+  
+  end
+
+  def gossips
+
+  end
+
+
 end
