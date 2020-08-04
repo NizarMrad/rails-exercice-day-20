@@ -1,4 +1,8 @@
 class User < ApplicationRecord
-    has_many :message_receivers
-    has_many :received_private_messages, class_name: "PrivateMessage", through: :message_receivers
+  has_many :gossips
+  belongs_to :city
+  has_many :sent_messages, foreign_key: 'sender_id', class_name: "PrivateMessage"
+  has_many :received_messages, foreign_key: 'recipient_id', class_name: "PrivateMessage"
+  has_many :comments
+  #has_many :gossips, through: :comments
 end

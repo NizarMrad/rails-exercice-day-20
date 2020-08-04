@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>The Gossip Project</title>
+  </head>
+
+  <body>
+<br/>
+<br/>
+<div class="container-fluid">
+  <div class="row">
+    <div class="card-deck ">
+      <div class="card text-center mt-5" style="width: 18rem;">
+        <div class="card-body ">
+          <h5 class="card-title">Timour Spiridonov</h5>
+          <img class="card-img-top" src="<%= asset_path('tim.jpg') %>" alt="Tim">
+          <a href="mailto:timour.spiridonov@gmail.com" class="btn btn-primary btn-sm btn-block">Contact me</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-6">
+      <div class="card text-center mt-5" style="width: 18rem;">
+        <div class="card-body">
+          <h5 class="card-title">Nizar Mrad</h5>
+          <img class="card-img-top" src="<%= asset_path('niz.jpg') %>" alt="Niz">
+          <a href="mailto:nizar.mrad.pro@gmail.com" class="btn btn-primary btn-sm btn-block">Contact me</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+    <%= yield %>
+  </body>
+</html>

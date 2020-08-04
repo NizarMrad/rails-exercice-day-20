@@ -2,6 +2,9 @@
 
 # Nizar M'rad
 
+<div style="text-align:center" align="center">
+  <img alt="Gossip" src="app/assets/images/the_gossip_project.png">
+</div>
 ## Description du projet
 
 Bienvenue dans ma première application Rails qui déchire ! Aujourd'hui on va commencer un projet qui me prendra toute la semaine : The Gossip Project. On me demande de reprendre le backend de la semaine dernière (en modifiant quelques éléments), puis d'ajouter les bons controllers, les bonnes vues, pour qu'à la fin de la semaine on puisse commérer en toute tranquilité.
